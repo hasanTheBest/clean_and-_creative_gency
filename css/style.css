@@ -1,0 +1,509 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700');
+body {
+    background-color: #F5F2F2;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+span {
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.default_padding {
+    padding: 60px 0px;
+}
+
+section h1 {
+    color: #444241;
+    font-size: 3em;
+}
+
+section h1 span.orangered {
+    color: orangered;
+}
+
+.hero_area {
+    background-image: url("../images/hero_bg.jpg");
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.hero_area header {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.agency_nav .agency_header>a.agency_logo {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.agency_nav.navbar-fixed-top .agency_header>a.agency_logo img {
+    transform: scale(.6);
+    margin-top: -.5em;
+    margin-left: -3em;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s;
+}
+
+.navbar-inverse.agency_nav {
+    background: transparent;
+    border-color: transparent;
+    -webkit-transition: all .8s;
+    -o-transition: all .8s;
+    transition: all .8s;
+}
+
+.navbar-inverse.agency_nav.navbar-fixed-top {
+    background: rgba(0, 0, 0, 0.7);
+    border-color: transparent;
+}
+
+.agency_nav.navbar-fixed-top .agency_menu li>a {
+    padding-top: 15px;
+}
+
+.navbar-inverse.agency_nav .agency_menu li>a:hover {
+    color: orangered;
+}
+
+.agency_nav .agency_menu li>a {
+    color: white;
+    padding-top: 45px;
+}
+
+.agency_nav .agency_menu li.active {
+    border-bottom: 4px solid orangered;
+    background-color: transparent;
+}
+
+.agency_nav .agency_menu li.active>a,
+.agency_nav .agency_menu li.active>a:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.hero_area,
+.welcome_area,
+.Dtable {
+    height: 100vh;
+}
+
+.Dtable {
+    display: table;
+    width: 100%;
+}
+
+.welcome_area div.tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    height: auto;
+    padding-top: 6em;
+}
+
+.hero_text {
+    color: white;
+}
+
+.hero_text h1 {
+    color: white;
+    margin-bottom: .5em;
+    font-size: 3.5em;
+}
+
+.hero_text p {
+    margin-bottom: 1.5em;
+}
+
+.hero-button {
+    clear: both;
+}
+
+.hero_text p.col-md-7 {
+    padding-left: 0px;
+}
+
+.hero-button .btn {
+    display: inline-block;
+    margin-right: 1em;
+    color: white;
+    border: 3px solid;
+    border-radius: 0px;
+    background: transparent;
+    transition: all .3s;
+}
+
+.hero-button .btn.btn_different {
+    background: orangered;
+    border: 3px solid orangered;
+    transition: all .3s;
+}
+
+.hero-button .btn.btn_different:hover {
+    border: 3px solid;
+    border: 3px solid orangered;
+    background: transparent;
+}
+
+.hero-button .btn:hover {
+    color: white;
+    background: orangered;
+}
+
+.member_details h3 {
+    color: black;
+    font-size: 1.3em;
+    margin-top: 1.5em;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+
+.member_details p {
+    margin-top: 1em;
+}
+
+.portfolio_area h1 {
+    padding-top: 6.88em;
+    margin-bottom: 0px;
+}
+
+.pricing_area h1 {
+    margin-top: 8em;
+    margin-bottom: 0px;
+}
+
+.cart_list span:first-of-type {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.cart_list h3 {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.cart_list span.price {
+    color: black;
+    font-size: 22px;
+    margin-bottom: 16px;
+    margin-top: 13px;
+}
+
+.cart_list.active span.price {
+    color: orangered;
+}
+
+.cart_list {
+    background-color: white;
+    padding: 1.5em;
+}
+
+.cart_list span {
+    display: block;
+}
+
+.cart_list span i.fa {
+    font-size: 4em;
+}
+
+.cart_list p {
+    margin-top: 2em;
+}
+
+.cart_list span strong {
+    font-size: 3em;
+}
+
+.cart_list a.btn.pricing_btn {
+    background-color: orangered;
+    color: white;
+    border-radius: 0px;
+    margin-bottom: 1em;
+    margin-top: .5em;
+}
+
+.about_creative_area {
+    background-color: #FFFFFF;
+}
+
+.about_creative_area h1 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.about_creative_area .work_bg {
+    background-image: url("../images/man_skitting.jpg");
+    background-color: #D25B38;
+    background-blend-mode: multiply;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 0em 4.5em;
+}
+
+.about_creative_area .work_bg .working_hours {
+    border-bottom: 1px solid white;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 3em 0em;
+    font-weight: 600;
+    position: relative;
+}
+
+.work_bg .working_circle {
+    position: absolute;
+    top: 50%;
+    left: 99%;
+    width: 80px;
+    margin-top: -40px;
+    margin-left: 24px;
+    height: 80px;
+    border-radius: 50%;
+    border: 15px solid orangered;
+    text-align: center;
+    background-color: #FFF;
+    background-image: url("../images/work_icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.work_bg .working_hours span {
+    display: block;
+}
+
+.working_hours .duty {
+    font-size: 2em;
+}
+
+.working_hours .name {
+    font-size: 1.5em;
+}
+
+.about_creative_area .work_p {
+    padding: 0em 3em;
+}
+
+.about_creative_area .work_p p {
+    padding-top: 2em;
+    margin: 0;
+    padding-bottom: .6em;
+}
+
+.special_service_area h1 {
+    margin-top: 8.2em;
+    margin-bottom: 0px;
+}
+
+.special_service_area h3 {
+    color: orangered;
+    text-transform: uppercase;
+}
+
+.special_service_area .service_box {
+    background-color: #FFF;
+    text-align: center;
+    padding-top: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin-bottom: 3em;
+    padding-bottom: 1em;
+}
+
+.service_box h3 {
+    margin-top: .5em;
+    margin-bottom: .4em;
+}
+
+.special_service_area .service_box span {
+    display: block;
+    font-size: 3em;
+    text-align: center;
+}
+
+.latest_design_area {
+    background-color: #FFF;
+}
+
+.latest_design_area h1 {
+    margin-top: 10.1em;
+    margin-bottom: 0px;
+}
+
+.latest_design_area .img {
+    position: relative;
+}
+
+.row.blog_row {
+    margin-bottom: 15px;
+}
+
+.blog_text h3 {
+    font-size: 1.3em;
+    color: black;
+    font-weight: 600;
+}
+
+.latest_design_area .img-caption {
+    position: absolute;
+    padding: 5px;
+    background-color: orangered;
+    color: white;
+    z-index: 3;
+    bottom: 8px;
+    left: 20px;
+    text-align: center;
+}
+
+.latest_design_area .img-caption span {
+    display: block;
+}
+
+.latest_design_area .img-caption span b {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.latest_design_area .img_right {
+    background-image: url("../images/LD_singer.png");
+    background-position: top;
+    background-size: cover;
+    position: relative;
+    color: white;
+}
+
+.latest_design_area .img_right_caption {
+    bottom: 80% !important;
+    left: 5% !important;
+    position: absolute;
+    height: auto;
+}
+
+.latest_design_area .img_right_text {
+    padding-top: 21em;
+    text-align: center;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+.img_right_text h3 {
+    font-size: 1.2em;
+}
+
+.team_member_area h1 {
+    padding-top: 6.4em;
+    margin-bottom: 0px;
+}
+
+.team_member_area .designation,
+.designation {
+    color: orangered;
+    text-transform: uppercase;
+}
+
+.pr_0 {
+    padding-right: 0 !important;
+}
+
+.pl_0 {
+    padding-left: 0 !important;
+}
+
+.find_us {
+    /*
+    min-height: 650px;*/
+    max-height: auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.contact_bg {
+    background-image: url("../images/find_us_bg.jpg");
+    background-position: center;
+    background-color: #FFF;
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 60%;
+    float: right;
+    min-height: 500px;
+    max-height: auto;
+}
+
+.contact_number {
+    width: 40%;
+    float: left;
+    position: relative;
+}
+
+.contact_number .left_side {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+.tabel.table-condensed.agency_table h3 {
+    color: orangered;
+    margin-top: 0px;
+}
+
+.tabel.table-condensed.agency_table i.fa {
+    font-size: 3em;
+    padding-right: .5em;
+    padding-left: .5em;
+}
+
+.tabel.table-condensed.agency_table td {
+    vertical-align: top;
+}
+
+.find_us h1 {
+    margin-bottom: 1.2em;
+    padding-right: 4em;
+}
+
+.left_side .address span.icon {
+    margin-left: 1.2em;
+}
+
+footer {
+    clear: both;
+    position: relative;
+}
+
+footer p {
+    margin-bottom: 0;
+    padding: 2em;
+    color: grey;
+}
+
+footer a.top {
+    position: absolute;
+    right: 0;
+    width: 3em;
+    height: 2em;
+    background-color: orangered;
+    color: white;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 1.5em/1em 0em;
+    top: -35%;
+    z-index: 2;
+    transform: rotate(-45deg);
+    font-size: 1.3em;
+}
